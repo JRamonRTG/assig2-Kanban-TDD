@@ -7,5 +7,10 @@ def fizzbuzz(n):
             print("Fizz - multiplo de 3")
             print(n)
             print("-----------------------------")
+        elif n % 5 == 0:
+            print("Buzz- multiplo de 5")
+            print(n)
+            print("-----------------------------") 
+
 
 fizzbuzz(100)
