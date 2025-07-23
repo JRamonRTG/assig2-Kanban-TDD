@@ -10,5 +10,10 @@ class TestFizzBuzz(unittest.TestCase):
         with redirect_stdout(buffer):
             fizzbuzz(n)
         return buffer.getvalue()
+    
+    def test_fizz(self):
+        out = self.capturar_salida(4)
+        self.assertIn("Fizz", out)
+        self.assertIn("3", out)
 
 unittest.main()
