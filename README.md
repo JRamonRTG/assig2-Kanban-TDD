@@ -21,9 +21,9 @@ La funcion `fizzbuzz(n)`:
 
 ```bash
 .
-├── fizzbuzz.py          # Lógica de impresión FizzBuzz
-├── tests.py             # Pruebas unitarias
-└── README.md            # Este archivo
+├── fizzbuzz.py          
+├── tests.py             
+└── README.md            
 ```
 
 ## Como ejecutar
@@ -38,3 +38,19 @@ La funcion `fizzbuzz(n)`:
 - test_buzz: Verifica salida para multiplos de 5.
 
 - test_fizzbuzz: Verifica salida para multiplos de ambos (como 15).
+
+## Reflection
+
+•	What did you learn by practicing TDD?
+Al practicar TDD se comprenden un poco mejor que pensar primero en los resultados esperados mejora tanto la calidad como la claridad del código, ya que definimos a que queremos llegar sin desviarnos.
+En lugar de escribir código y luego ver si funciona hacemos lo correcto o lo que debería hacer desde el inicio además de que uno se va dando cuenta un poco más a conciencia lo que realmente que es lo único que se pide, porque a veces realiza cosas extras que no se piden sin darse cuenta.
+
+•	What would you change in your Kanban board after coding with that flow?
+Posiblemente la columna de Back log, pero fue más en testing ya que estuve realizando y pensando las pruebas para que funcionaran y para que me servirían, tal vez incluso agregaría otra columna para expandir un poco las pruebas o en todo caso analizar los limites WIP.
+
+•	Which XP practices were reflected (besides TDD)?
+-	Diseño directo para lo necesario de los resultados
+-	Iteración de desarrollo por cada parte de la función
+-	Documentación un poco mas directa 
+-	Refactorizar al escribir primero pruebas
+
